@@ -8,13 +8,13 @@ position = input("Where do you want to put the treasure? ")
 # 🚨 Don't change the code above 👆
 
 #Write your code below this row 👇
-#input always takes in string
+#input always takes in string so we have to convert it using int()
 #if you wanted column2 row 3 it would be #2, #3
-horizontal= position[0]#2
-vertical= position[1]#3
+horizontal = int(position[0])#2 convert string into integer
+vertical = int(position[1])#3
 
-
-
+map[vertical - 1][horizontal - 1] = "X"
+ 
 
 #Write your code above this row 👆
 
